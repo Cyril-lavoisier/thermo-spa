@@ -1,0 +1,26 @@
+.menu{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border-bottom: 1px solid grey;
+    padding: 5px;
+}
+.menu img {
+  height: 100px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+.menu a:hover{
+    color: #d6c177;
+}
+.menu .reserver{
+    background-color: #d6c177;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+.menu .reserver:hover{
+    color: white;
+}
