@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+  user-select: none;
 }
 
 .carousel-window {
@@ -13,17 +14,19 @@
 
 .carousel-track {
   display: flex;
-  transition: transform 0.4s ease-in-out;
+  transition: transform 0.5s ease;
 }
 
 .carousel-track img {
   width: 600px;
   flex-shrink: 0;
+  pointer-events: none;
 }
 
 .back, .forward{
   height: 35px;
   width: 35px;
+  cursor: pointer;
 }
 .back:hover, .forward:hover{
   color: #d6c177;

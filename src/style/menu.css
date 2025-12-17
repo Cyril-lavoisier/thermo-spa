@@ -4,6 +4,9 @@
     background-color: black;
     border-bottom: 1px solid grey;
     padding: 5px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 .menu img {
   height: 100px;
@@ -14,10 +17,10 @@
     margin: 10px;
 }
 .menu a:hover{
-    color: #d6c177;
+    color: #a2965b;
 }
 .menu .reserver{
-    background-color: #d6c177;
+    background-color: #a2965b;
     border-radius: 30px;
     padding: 10px 30px;
 }
