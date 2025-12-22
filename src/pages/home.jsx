@@ -139,10 +139,6 @@ export default function Home() {
           <div class="div3"><h2>Notre emplacement</h2>Situé en plein coeur de Calais, nous nous trouvons juste en face de l’enseigne Carrefour. Vous pouvez faire vos courses pour vos repas en toute autonomie.La zone est desservie par les bus de villes qui sont gratuits. Le stationnement se fait sur la voie publique, il est gratuit et illimité.</div>
         </div>
         <iframe style={{ width: 600, height: 450, border: "0" }}src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5027.506513936598!2d1.84190527707877!3d50.94677607169127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dc3f0e13aad063%3A0x316c2b9f72bbceef!2s200%20Bd%20Gambetta%2C%2062100%20Calais!5e0!3m2!1sfr!2sfr!4v1766001538331!5m2!1sfr!2sfr" stylereferrerpolicy="no-referrer-when-downgrade"></iframe>
-        <p>Copyright © 2025 Thermo'Spa Gîte Calais</p>
-        <p>Politique de confidentialité</p>
-        <p>Conditions générales de ventes</p>
-        <p>Conditions Générales d’Utilisation</p>
       </main>
     </>
 )}
