@@ -1,5 +1,5 @@
 Couleur doré du site : #d6c177
-<div class="equipement1"><h2>Jacuzzi</h2>Capacité de 5 personnes avec technologie Bluetooth pour la sonorisation, luminothérapie, hydrothérapie, jets hautes pressions pour les membres inférieurs et les dorsaux.</div>
-<div class="equipement2"><h2>Jeu de fléchettes connecté</h2>Cible fléchée avec écran tactile, médias attractifs, scoring en temps réel, jusqu'à 8 joueurs.</div>
-<div class="equipement3"><h2>Siège massant</h2>Méthode de relaxation avec massage intégrale: mains, bras, dos, jambes, pieds, fesses.</div>
-<div class="equipement4"><h2>Des Formules adaptées</h2>Une ou plusieurs nuitée(s) / 3 heures de détente l'après-midi</div>
+<div className="equipement1"><h2>Jacuzzi</h2>Capacité de 5 personnes avec technologie Bluetooth pour la sonorisation, luminothérapie, hydrothérapie, jets hautes pressions pour les membres inférieurs et les dorsaux.</div>
+<div className="equipement2"><h2>Jeu de fléchettes connecté</h2>Cible fléchée avec écran tactile, médias attractifs, scoring en temps réel, jusqu'à 8 joueurs.</div>
+<div className="equipement3"><h2>Siège massant</h2>Méthode de relaxation avec massage intégrale: mains, bras, dos, jambes, pieds, fesses.</div>
+<div className="equipement4"><h2>Des Formules adaptées</h2>Une ou plusieurs nuitée(s) / 3 heures de détente l'après-midi</div>

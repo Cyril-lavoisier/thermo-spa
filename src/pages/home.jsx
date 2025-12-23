@@ -26,13 +26,13 @@ export default function Home() {
           <h2>Découvrez notre concept</h2>
           <p>Notre gîte au coeur de la ville de Calais est un véritable cocon de détente de 95 mètres carrés. Il inclut un patio pour profiter de vos meilleurs apéritifs en toute intimité. Le gîte ThermoSpa Calais possède une capacité d’accueil de 2 à 4 personnes. Ce lieu est pensé pour vous offrir des instants paisibles grâce à son jacuzzi privatif pouvant recevoir 5 personnes, un siège massant haut de gamme et un jeu de fléchettes professionnel. Composé d’un espace de vie lumineux et confortable, notre gîte fraîchement aménagé, vous offre un séjour serein. En couple entre amis ou en famille, tout est mis en place pour que vous ne manquiez de rien. Cerise sur le gâteau nous offrons le petit déjeuner.</p>
         </div>
-        <iframe width="467" height="830" src="https://www.youtube.com/embed/IIn5lBkEZpk" title="Présentation Thermo&#39;Spa Calais" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="467" height="830" src="https://www.youtube.com/embed/IIn5lBkEZpk" title="Présentation ThermoSpa Calais" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         <h1>Nos équipements</h1>
-        <div class="nos-equipement">
-          <div class="equipement1"><h2>Espace nuit</h2>Equipé d'un lit Queen Size 160x180 et d'une TV connecté 4k ultra hd dans une magnifique chambre mansardée</div>
-          <div class="equipement2"><h2>Salle de bain</h2>Dispose d'une baignoire, d'une douche à l'italienne, d'un vasque unique et d'un miroir lumineux, les serviette et peignoir sont fournis.</div>
-          <div class="equipement3"><h2>Espace repas tout équipé</h2>Table à manger ronde en verre, bouilloire, cafetière, four, firgo / congélateur</div>
-          <div class="equipement4"><h2>Zone de détente</h2>Jacuzzi, Jeu de fléchettes connecté, Siège massant bluetooth</div>
+        <div className="nos-equipement">
+          <div className="equipement1"><h2>Espace nuit</h2>Equipé d'un lit Queen Size 160x180 et d'une TV connecté 4k ultra hd dans une magnifique chambre mansardée</div>
+          <div className="equipement2"><h2>Salle de bain</h2>Dispose d'une baignoire, d'une douche à l'italienne, d'un vasque unique et d'un miroir lumineux, les serviette et peignoir sont fournis.</div>
+          <div className="equipement3"><h2>Espace repas tout équipé</h2>Table à manger ronde en verre, bouilloire, cafetière, four, firgo / congélateur</div>
+          <div className="equipement4"><h2>Zone de détente</h2>Jacuzzi, Jeu de fléchettes connecté, Siège massant bluetooth</div>
         </div>
         <span id='detail-equipement' onClick={() => setIsModalOpen(true)}>Plus de detail sur nos équipement</span>
         <Modal
@@ -90,10 +90,11 @@ export default function Home() {
           <p>Planche de charcuterie / fromage 30 €</p>
         </div>
         <p>Un supermarché et d’autres commerces situés à proximité du Thermo’Spa vous permet également de faire facilement vos courses et d’accéder à tous les produits dont vous pourriez avoir besoin, rendant votre expérience encore plus pratique et agréable</p>
-        <h1>Nos Tarifs par nuitée</h1>
+      </main>  
         <div id="tarif"> 
-          <div id="liste-tarif">   
-            <div class="div1">
+          <div id="liste-tarif">
+            <h1 className="tarif_titre">Nos Tarifs par nuitée</h1>
+            <div className="tarif2">
               <h2>Prix de la nuitée en semaine</h2>
               <h2>Du Dimanche soir au Jeudi soir</h2>
               <ul>
@@ -105,7 +106,7 @@ export default function Home() {
                 <li>Capacité totale 4 personnes</li>
               </ul>
             </div>
-            <div class="div2">
+            <div className="tarif3">
               <h2>Prix de la nuitée le week-end</h2>
               <h2>Du Vendredi au Dimanche</h2>
               <h2>Veille et jours fériés inclus</h2>
@@ -118,7 +119,7 @@ export default function Home() {
                 <li>Capacité totale 4 personnes</li>
               </ul>
             </div>
-            <div class="div3">
+            <div className="tarif4">
               <h2>Forfait 3h</h2>
               <h2>A partir de 100 € pour deux personnes</h2>
               <ul>
@@ -129,14 +130,15 @@ export default function Home() {
                 <li>La veille d’un jour férié ou le jour férié le prix de la nuité s’élève à 300 euros la nuité</li>
               </ul>
             </div>
+            <p className="reserver disponibilite_boutton">Disponibilités et réservations</p>
           </div>
-          <p className="reserver">Disponibilités et réservations</p>
         </div>
+      <main>
         <h1>Infos Pratiques</h1>
         <div id="info-pratique">
-          <div class="div1"><h2>Pour tout renseignement</h2>Contactez Cathy et Stéphane au 06 14 85 06 77</div>
-          <div class="div2"><h2>Détails</h2>Une boîte à clés est à votre disposition pour votre arrivée, en attendant que nous puissions vous accueillir, Établissement non fumeur sauf sur le patio, Animaux non autorisés</div>
-          <div class="div3"><h2>Notre emplacement</h2>Situé en plein coeur de Calais, nous nous trouvons juste en face de l’enseigne Carrefour. Vous pouvez faire vos courses pour vos repas en toute autonomie.La zone est desservie par les bus de villes qui sont gratuits. Le stationnement se fait sur la voie publique, il est gratuit et illimité.</div>
+          <div className="info-pratique1"><h2>Pour tout renseignement</h2>Contactez Cathy et Stéphane au 06 14 85 06 77</div>
+          <div className="info-pratique2"><h2>Détails</h2>Une boîte à clés est à votre disposition pour votre arrivée, en attendant que nous puissions vous accueillir, Établissement non fumeur sauf sur le patio, Animaux non autorisés</div>
+          <div className="info-pratique3"><h2>Notre emplacement</h2>Situé en plein coeur de Calais, nous nous trouvons juste en face de l’enseigne Carrefour. Vous pouvez faire vos courses pour vos repas en toute autonomie.La zone est desservie par les bus de villes qui sont gratuits. Le stationnement se fait sur la voie publique, il est gratuit et illimité.</div>
         </div>
         <iframe style={{ width: 600, height: 450, border: "0" }}src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5027.506513936598!2d1.84190527707877!3d50.94677607169127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dc3f0e13aad063%3A0x316c2b9f72bbceef!2s200%20Bd%20Gambetta%2C%2062100%20Calais!5e0!3m2!1sfr!2sfr!4v1766001538331!5m2!1sfr!2sfr" stylereferrerpolicy="no-referrer-when-downgrade"></iframe>
       </main>
