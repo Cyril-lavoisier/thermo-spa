@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import "../style/menu.css";
 import logo from "../assets/thermospa-logo.png";
 
@@ -8,7 +9,7 @@ function Menu() {
         <img src={logo} alt="thermospalogo" />
         <a href="/">Accueil</a>
         <a href="/contact">Contact</a>
-        <a className="reserver" href="/reserver">Reserver</a>
+        <Link to="/reserver" className='reserver'>Reserver</Link>
     </nav>
   );
 }

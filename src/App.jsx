@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Menu from "./components/menu";
 import Footer from "./components/footer";
 import Home from "./pages/home";
+import Reserver from "./pages/reserver";
 import PolitiqueConfidentialite from "./pages/politiqueConfidentialite";
 import CGV from "./pages/CGV";
 import CGU from "./pages/CGU";
@@ -14,6 +15,7 @@ function App() {
         <Menu />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/reserver" element={<Reserver />} />
           <Route path="/politiqueConfidentialite" element={<PolitiqueConfidentialite />} />
           <Route path="/CGV" element={<CGV />} />
           <Route path="/CGU" element={<CGU />} />
